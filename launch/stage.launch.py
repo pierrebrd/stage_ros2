@@ -69,6 +69,7 @@ def generate_launch_description():
                         "world_file": [LaunchConfiguration("world_file")],
                     }
                 ],
+                remappings=[("/base_scan", "/scan")],
             ),
         ]
     )
