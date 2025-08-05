@@ -1,4 +1,12 @@
 # stage_ros2
+
+## Fork status:
+
+This fork fixes some package dependencies and modifies stage.launch.py to remap /base_scan to /scan
+
+
+## Original repo README
+
 This is a  ROS bridge for the robot simulator [Stage](https://github.com/rtv/Stage).
 It supports multiple robots with one or multiple tf-trees.
 
